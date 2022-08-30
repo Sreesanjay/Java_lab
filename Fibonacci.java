@@ -14,8 +14,8 @@ public class Fib
 		
 		for(i=1;i<=limit;i++)
 		{
-			System.out.println(i+":"+fib1);
-			fib3 = fib1 + fib2;
+		    System.out.println(i+":"+fib1);
+		    fib3 = fib1 + fib2;
 		    fib1 = fib2;
 		    fib2 = fib3;
 		}
