@@ -1,6 +1,6 @@
 import java.util.Scanner;    
-public class Amstrong{ 
-static boolean Amstrong(int n){   
+public class Armstrong{ 
+static boolean Armstrong(int n){   
 	int temp, digits=0, last=0, sum=0;   
 	temp=n;    
 	while(temp>0)    
@@ -27,5 +27,7 @@ public static void main(String args[])
 	num=sc.nextInt();  
 	System.out.println("Amstrong Number up to "+ num + " are: ");  
 	for(int i=0; i<=num; i++)  
-	if(Amstrong(i))   
-	System.out.print(i+ ", ");}}  
+	if(Armstrong(i))   
+	System.out.print(i+ ", ");
+	}
+	}  
